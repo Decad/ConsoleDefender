@@ -1,7 +1,9 @@
 (function(){
-	Object.defineProperty(window, "console", {configurable: false});
+    Object.defineProperty(window, "console", {
+        configurable: false
+    });
 
-	Object.defineProperty(console, '_commandLineAPI', { 
-    	configurable: false
+    Object.defineProperty(console, '_commandLineAPI', { 
+        configurable: false
     })
 })()
